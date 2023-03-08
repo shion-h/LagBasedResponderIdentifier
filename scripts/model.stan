@@ -116,8 +116,8 @@ transformed parameters {//{{{
                 mu_nu_prob[mu + 1, nu + 1] += tmp_log_prob;
             }
         }
-        log_sum_exp_mu_nu_prob = log_sum_exp(mu_nu_prob);
     }
+    log_sum_exp_mu_nu_prob = log_sum_exp(mu_nu_prob);
     }
 }//}}}
 
